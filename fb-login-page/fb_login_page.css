@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bitter', serif;
+}
+
+#main {
+    background: #f0f2f5;
+    width: 100vw;
+    height: 100vh;
+}
+
+#main-div {
+    width: 430px;
+    margin: auto;
+
+    background-color: #ffffff;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 10px skyblue;
+}
+
+/*------------------form-main-div-header start ----------------*/
+#main-div-header {}
+
+.mdh1 {}
+
+.m-img {
+    width: 100%;
+    max-width: 285px;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+.mdh2 {
+    text-align: center;
+    padding: 1rem;
+    /* border: 1px solid; */
+}
+
+/*------------------form-main-div-header end ----------------*/
+hr {
+    border: none;
+    border-top: 1px solid #CFD2CF;
+    text-align: ;
+}
+
+/*--------------------form-main-div-footer start----------------------*/
+#main-div-footer {
+    padding: 1rem;
+    /* border: 1px solid; */
+}
+
+#main-div-footer-form {}
+
+.mdff-1 {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.mdff-1>input {
+    outline: none;
+    border: 1px solid #CFD2CF;
+    padding: 10px;
+    width: 100%;
+    border-radius: 3px;
+}
+
+.mdff-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.mdff-2>input {
+    outline: none;
+    border: 1px solid #CFD2CF;
+    padding: 10px;
+    width: 100%;
+    border-radius: 3px;
+}
+
+.mdff-3 {}
+
+.mdff-3-div-1,
+.mdff-4-div-1 {
+    margin: 10px 0;
+}
+
+.mdff-3>.mdff-3-div-2>span {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.mdff-3>.mdff-3-div-2>span>select {
+    outline: none;
+    border: 1px solid #CFD2CF;
+    background-color: #ffffff;
+    padding: 10px;
+    width: 100%;
+    border-radius: 3px;
+}
+
+.mdff-4 {}
+
+.mdff-4>.mdff-4-div-2 {
+    display: flex;
+    flex-direction: row;
+    gap: 10px
+}
+
+.mdff-4>.mdff-4-div-2>div {
+    outline: none;
+    border: 1px solid #CFD2CF;
+    background-color: #ffffff;
+    padding: 10px;
+    width: 100%;
+    border-radius: 3px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.mdff-5 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+.mdff-6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.mdff-6>button {
+    width: 200px;
+    padding: 8px;
+    background: #00a400;
+    outline: none;
+    border: none;
+    border: none;
+    cursor: pointer;
+    color: white;
+    border-radius: 5px;
+    font-size: large;
+    font-weight: bold;
+}
+
+/*--------------------form-main-div-footer end ----------------------*/
