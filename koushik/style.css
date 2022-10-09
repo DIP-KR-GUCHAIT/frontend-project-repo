@@ -1,0 +1,483 @@
+/* CODE ~ ONE */
+/*bootsrtap logo link*/
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
+/* google fonts link */
+@import url('https://fonts.googleapis.com/css2?family=Mali:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mali:wght@200&display=swap');
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+    /* overflow: auto; */
+    scroll-behavior: smooth;
+    font-family: 'Mali', cursive;
+}
+
+*::-webkit-scrollbar {
+    display: none;
+}
+
+/*----------------------------
+global style
+-------------------------*/
+h1 {
+    font-size: 4rem;
+    text-decoration: 1px solid underline;
+    text-underline-offset: 1.5rem;
+    font-weight: 400;
+    color: rgb(9, 36, 190);
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+p {
+    font-size: 2rem;
+}
+
+.div-2-first-heading {
+    text-decoration: none;
+}
+
+/*----------------------------------
+       header design start here
+------------------------------------*/
+.logo {
+    font-size: 2rem;
+    color: black;
+    text-decoration: 2px solid underline;
+    text-underline-offset: 10px;
+}
+
+.nav {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2rem 0;
+
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    left: 0;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 3rem;
+}
+
+#header>.nav>.nav-list>li {
+    list-style: none;
+}
+
+#header>.nav>.nav-list>li>a {
+    text-decoration: none;
+    color: rgb(3, 125, 141);
+}
+
+.hire-button {
+    width: 150px;
+    border: none;
+    outline: none;
+    background: rgb(0, 153, 255);
+    color: aliceblue;
+    padding: 1rem;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    text-decoration: none;
+
+}
+
+#header-flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+.hf-1 {
+    width: 50%;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 3rem;
+    align-items: center;
+    padding: 3rem;
+    text-align: center;
+}
+
+.hf-1-d-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.div-2-img {
+    width: 100%;
+    max-width: 180px;
+    height: auto;
+    border: 2px solid;
+    border-radius: 500px;
+    display: block;
+    margin: auto;
+    background: rgb(226, 230, 10);
+}
+
+.div-2-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-2-logo>a>i {
+    font-size: 1.5rem;
+    margin: 2rem;
+    color: rgb(238, 174, 36);
+}
+
+#header-flex>.hf-2 {
+
+    width: 100%;
+    max-width: 50%;
+    height: 100vh;
+    border: none;
+    box-sizing: border-box;
+
+    background-image: url(/koushik/img/4.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*----------------------------------
+       header design end here
+------------------------------------*/
+
+/*----------------------------------
+       main design start here
+------------------------------------*/
+#main-div-one {
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    background: rgb(255, 255, 255);
+}
+
+.mdos-1 {
+    width: 100%;
+    max-width: 50%;
+    height: 100vh;
+
+    background-image: url(/koushik/img/5.jpg);
+    background-repeat: no-repeat;
+    background-position: center left;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.mdos-2 {
+    width: 100%;
+    max-width: 50%;
+    height: 100vh;
+    background: rgb(0 191 255);
+    color: rgb(255, 255, 255);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 3rem;
+    align-items: center;
+    padding: 1rem;
+    text-align: center;
+}
+
+.mdos-2>ul>li {
+    font-size: 1.5rem;
+    margin: 1rem;
+}
+
+/*-----------------------------------------*/
+
+#main-div-two {
+    display: flex;
+}
+
+.mdt-1 {
+    width: 100%;
+    max-width: 50%;
+    height: 100vh;
+    border: none;
+    box-sizing: border-box;
+    background: rgb(255, 166, 0);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 3rem;
+    align-items: center;
+    padding: 3rem;
+    text-align: center;
+}
+
+.video-section {
+    background: rgba(0, 0, 0, 0.247);
+    padding: 1rem;
+    border-radius: 0px 0px 50px 0px;
+    box-shadow: 40px 40px 10px rgba(0, 0, 0, 0.205);
+}
+
+.video-section>video {
+    width: 300px;
+    margin: 0.5rem;
+    border-radius: 10px;
+}
+
+.mdt-2 {
+    width: 100%;
+    max-width: 50%;
+    height: 100vh;
+    border: none;
+    box-sizing: border-box;
+    background: rgb(255, 0, 0);
+
+    background-image: url(/koushik/img/7.jpg);
+    background-repeat: no-repeat;
+    background-position: center left;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/*----------------- main div three start here -------------------------*/
+#main-div-three {
+    display: flex;
+}
+
+.mdtd-1 {
+    width: 100%;
+    max-width: 50%;
+    height: 100vh;
+    border: none;
+    box-sizing: border-box;
+    background: rgb(255, 0, 0);
+
+    background-image: url(/koushik/img/2.jpg);
+    background-repeat: no-repeat;
+    background-position: center left;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.mdtd-2 {
+    width: 100%;
+    max-width: 50%;
+    height: 100vh;
+    border: none;
+    box-sizing: border-box;
+    background: rgb(255, 255, 255);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.mdtd-2>img {
+    width: 70%;
+    max-width: 70%;
+    border-radius: 0 30px 0 30px;
+    box-shadow: 0px 0px 50px rgba(4, 128, 91, 0.479);
+}
+
+/*----------------- main div three end -------------------------*/
+
+
+/*----------------------------------
+       main design end here
+------------------------------------*/
+
+
+/*----------------------------------
+       footer design end here
+------------------------------------*/
+
+footer {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    background: rgb(0, 0, 0);
+    color: white;
+}
+
+.f-div {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.f-div>a {
+    text-decoration: none;
+    font-family: 'Mali', cursive;
+    color: white;
+}
+
+.copyright {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+/*----------------------------------
+       footer design end here
+------------------------------------*/
+
+/*------------------------------------
+       css media quories start
+-------------------------------------*/
+
+@media only screen and (max-width: 1600px) {
+    h1 {
+        font-size: 3rem;
+    }
+
+    #header-flex {
+        flex-direction: column;
+        flex-wrap: wrap-reverse;
+    }
+
+    #header-flex>.hf-2 {
+
+        width: 100%;
+        max-width: 100%;
+        /* height: 100vh; */
+        background-attachment: fixed;
+    }
+
+    #header-flex>.hf-1 {
+        width: 100vw;
+        height: auto;
+
+    }
+
+    #header-flex>.hf-2 {
+        width: 100vw;
+
+    }
+
+    #main-div-one {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .mdos-1 {
+        max-width: 100%;
+        background-attachment: fixed;
+    }
+
+    .mdos-2 {
+        max-width: 100%;
+    }
+
+    #main-div-two {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .mdt-1 {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+    }
+
+    .mdt-2 {
+        width: 100%;
+        max-width: 100%;
+        height: 100vh;
+    }
+
+    #main-div-three {
+        flex-direction: column-reverse;
+    }
+
+    .mdtd-1 {
+        width: 100%;
+        max-width: 100%;
+        height: 100vh;
+    }
+
+    .mdtd-2 {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        padding: 5rem 0;
+    }
+
+    /*------------------------------------
+       css media quories end here
+-------------------------------------*/
+
+    @media only screen and (max-width: 992px) {
+        h1 {
+            font-size: 2rem;
+        }
+
+        h2 {
+            font-size: 1rem;
+        }
+
+        p {
+            font-size: 1rem;
+        }
+
+
+        .logo {
+            display: none;
+        }
+
+        .nav {
+            padding: 2rem 0;
+            justify-content: center;
+        }
+
+        .nav-list {
+            gap: 1rem;
+        }
+
+        .nav-list>li>a {
+            font-size: small;
+        }
+
+        .div-2-logo>a>i {
+            font-size: 1.5rem;
+            margin: 1rem;
+            color: rgb(238, 174, 36);
+        }
+
+        .video-section {
+            background: none;
+            padding: 1rem;
+            border-radius: 0px 0px 50px 0px;
+            box-shadow: none;
+        }
+    }

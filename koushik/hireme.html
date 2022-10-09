@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="hireme.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="main">
+        <form action="https://mail.google.com/mail/u/0/#inbox?compose=new" method="post">
+            <div>
+                <label for="">Choose your work category</label>
+                <select name="work-category" id="work-category">
+                    <option value="vedio editing">vedio editing</option>
+                    <option value="3D animation">3D animation</option>
+                    <option value="Graphic design">Graphic design</option>
+                    <option value="other works for designg related">other works for designing related</option>
+                </select>
+            </div>
+            <div>
+                <label for="first-name">First name</label>
+                <input type="text" placeholder="Ente your first name" required name="first-name" id="first-name">
+            </div>
+            <div>
+                <label for="last-name">Last name</label>
+                <input type="text" placeholder="Ente your last name" required name="last-name" id="last-name">
+            </div>
+            <div>
+                <label for="email-id">Email</label>
+                <input type="email" placeholder="Ente your email id" required name="email-id" id="email-id">
+            </div>
+            <div>
+                <label for="datetime-local">Select booking date time</label>
+                <input type="datetime-local" required name="datetime-local" id="datetime-local">
+            </div>
+            <div>
+                <input class="submit" type="submit" value="Book now">
+            </div>
+
+        </form>
+    </div>
+</body>
+
+</html>
